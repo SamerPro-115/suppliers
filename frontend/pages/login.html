@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/login.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
+    <title>تسجيل الدخول</title>
+</head>
+<body>
+    
+    <div class="box">
+        <h2>تسجيل الدخول</h2>
+        <form id="signin">
+          <div class="inputBox">
+            <input type="username" autocomplete="off" id="username" name="username" required value="">
+            <label>اسم المستخدم</label>
+          </div>
+          <div class="inputBox">
+            <input type="password" name="password" id="password" autocomplete="on" required value="">
+            <label>كلمة المرور</label>
+          </div>
+          <input type="submit" value="تسجيل الدخول" class="submit-form btn" id="login" />
+        </form>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 text-center">
+                    <a href="/pages/signup-users.html" class="other-form-btns">انشاء حساب مستخدم</a>
+                </div>
+                <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 text-center">
+                    <a href="/pages/signup-suppliers.html" class="other-form-btns">انشاء حساب مورّد</a>
+                </div>
+            </div>
+        
+        </div>
+      </div>
+
+
+
+
+      <div class="spinner-container">
+        <div class="spinner">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+  
+      </div>
+     
+
+  <script src="/index.js"></script>
+</body>
+</html>
